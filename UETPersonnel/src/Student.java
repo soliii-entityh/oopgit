@@ -1,6 +1,8 @@
-public class Student {
-    private String name;
-    private int birthYear;
+public class Student extends UETPersonnel {
     private String id;
-    UETPersonnel student = new UETPersonnel(name, birthYear, id);
+
+    public Student(String name, int birthyear, String id) {
+        super(name, birthyear);
+        this.id = id;
+    }
 }

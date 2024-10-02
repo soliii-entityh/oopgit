@@ -1,5 +1,5 @@
-public class Person {
-    private String name;
-    private int birthYear;
-    UETPersonnel person = new UETPersonnel(name, birthYear);
+public class Person extends UETPersonnel {
+    public Person(String name, int birthyear) {
+        super(name, birthyear);
+    }
 }
